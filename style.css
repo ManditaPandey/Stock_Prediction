@@ -1,0 +1,142 @@
+
+/* 🌌 PREMIUM DARK BACKGROUND */
+.stApp {
+    background: radial-gradient(circle at top, #111827, #0b0f1a);
+    color: #ffffff;
+}
+
+/* 🪟 MODERN GLASS CARD */
+.glass {
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 18px;
+    padding: 22px;
+    box-shadow: 
+        0 10px 40px rgba(0,0,0,0.5),
+        inset 0 1px 1px rgba(255,255,255,0.05);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    transition: 0.3s ease-in-out;
+}
+
+.glass:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 15px 60px rgba(0,0,0,0.6);
+}
+
+/* 🎯 PREMIUM BUTTONS */
+.stButton>button {
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    border-radius: 12px;
+    padding: 10px 18px;
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    transition: all 0.25s ease;
+}
+
+.stButton>button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0, 114, 255, 0.5);
+}
+
+/* 📊 METRIC CARDS (IMPORTANT UPGRADE) */
+[data-testid="metric-container"] {
+    background: rgba(255,255,255,0.04);
+    border-radius: 14px;
+    padding: 14px;
+    border-left: 3px solid #00c6ff;
+    backdrop-filter: blur(10px);
+}
+
+/* 📑 TABS (MODERN LOOK) */
+.stTabs [data-baseweb="tab"] {
+    background: transparent;
+    color: #aaa;
+    padding: 10px 16px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.stTabs [aria-selected="true"] {
+    background: rgba(0,198,255,0.15);
+    color: white;
+    border: 1px solid rgba(0,198,255,0.4);
+}
+
+/* 📦 SIDEBAR */
+[data-testid="stSidebar"] {
+    background: linear-gradient(180deg, #0b0f1a, #111827);
+    border-right: 1px solid rgba(255,255,255,0.06);
+}
+
+/* 📈 HEADINGS */
+h1, h2, h3 {
+    letter-spacing: 0.5px;
+}
+
+
+/* 📊 Glass container for charts */
+.chart-glass {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 18px;
+    padding: 16px;
+    margin-top: 10px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.5);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255,255,255,0.08);
+}
+
+/* 📊 Streamlit bar chart styling */
+[data-testid="stArrowVegaLiteChart"] {
+    background: transparent !important;
+    border-radius: 12px;
+}
+
+/* 📉 Improve chart spacing */
+.element-container {
+    padding: 5px 0px;
+}
+
+h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+/* 🪟 GLOBAL GLASS BUTTON STYLE */
+.stButton > button {
+    background: rgba(255, 255, 255, 0.06);
+    color: #ffffff;
+    border-radius: 14px;
+    padding: 10px 18px;
+    border: 1px solid rgba(255,255,255,0.12);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.4);
+    font-weight: 600;
+    letter-spacing: 0.3px;
+    transition: all 0.25s ease-in-out;
+}
+
+/* ✨ Hover effect */
+.stButton > button:hover {
+    transform: translateY(-3px);
+    background: rgba(0, 198, 255, 0.15);
+    border: 1px solid rgba(0, 198, 255, 0.4);
+    box-shadow: 0 0 18px rgba(0, 198, 255, 0.35);
+}
+
+/* 🔥 Click effect */
+.stButton > button:active {
+    transform: scale(0.98);
+}
+
+/* 📦 File uploader button also */
+[data-testid="stFileUploader"] button {
+    background: rgba(255,255,255,0.06);
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,0.1);
+    color: white;
+}

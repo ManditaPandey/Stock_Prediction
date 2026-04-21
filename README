@@ -1,0 +1,6 @@
+To run the UI
+streamlit run stock_app.py
+To train 
+python train_stock_model.py
+Dummy train
+Python create_dummy_stock_data.py
