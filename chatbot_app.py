@@ -31,7 +31,7 @@ def chatbot_ui():
 
 
 # -------------------------------
-# Chatbot Logic (SAFE VERSION)
+# Chatbot Logic 
 # -------------------------------
 def chatbot_response(query):
     query = query.lower()
@@ -42,9 +42,9 @@ def chatbot_response(query):
     # -------------------------------
     if any(word in query for word in ["prediction", "predict", "forecast"]):
         return (
-            "📊 Prediction means forecasting future stock prices.\n\n"
+            "Prediction means forecasting future stock prices.\n\n"
             "This app uses a Random Forest Machine Learning model "
-            "to predict whether price will go UP 📈 or DOWN 📉 "
+            "to predict whether price will go UP 📈or DOWN 📉 "
             "based on historical data."
         )
 

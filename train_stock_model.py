@@ -46,7 +46,7 @@ joblib.dump(model, "stock_model_rf.pkl")
 joblib.dump(X.columns.tolist(), "stock_features.pkl")
 
 # -----------------------
-# Print Accuracy (Optional)
+# Print Accuracy 
 # -----------------------
 accuracy = model.score(X_test, y_test)
 print(f"Model trained! Test Accuracy: {accuracy:.2f}")

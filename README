@@ -4,3 +4,5 @@ To train
 python train_stock_model.py
 Dummy train
 Python create_dummy_stock_data.py
+for cmd
+python -m streamlit run stock_app.py --server.port 8502 --server.fileWatcherType none
